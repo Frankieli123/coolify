@@ -30,7 +30,7 @@ echo ""
 
 # Step 2: Run the original installation script
 # This will install Docker, configure the system, and download compose files
-bash "$(dirname "$0")/install (1).sh" "$CUSTOM_VERSION"
+bash "$(dirname "$0")/install-custom.sh" "$CUSTOM_VERSION"
 
 # Step 3: Create custom docker-compose override to use your image
 echo ""
